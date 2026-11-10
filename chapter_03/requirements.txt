@@ -1,0 +1,9 @@
+# The LAYA Handbook — Chapter 3: Installing Laya: pip, Hugging Face Checkpoints, and Apache 2.0
+# Section: Reading the Project’s Own Release History
+
+# requirements.txt — pin explicitly rather than leaving the version open
+laya==0.4.13   # the release this book targets
+
+# Upgrading deliberately, one version at a time, with Chapter 18's golden-set
+# gate run against the new version before it replaces the pinned one in
+# production — exactly the discipline Chapter 29 argues for any production change.
